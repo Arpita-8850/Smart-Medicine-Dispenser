@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medicine Dispenser</title>
+    <link rel="stylesheet" href="../static/css/cart.css">
+    <script src="../static/js/cart.js"></script>
+    <script src="../static/js/products.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- (A) CART -->
+    <div id="cart-wrap">
+      <!-- (A1) PRODUCTS LIST -->
+      <div id="cart-products"></div>
+
+      <!-- (A2) CURRENT CART ITEMS -->
+      <div id="cart-items"></div>
+    </div>
+
+    <!-- (B) TEMPLATES -->
+    <!-- (B1) PRODUCT CELL -->
+    <template id="template-product">
+    <div class="p-item">
+      <img class="p-img"/>
+      <div class="p-name"></div>
+      <div class="p-desc"></div>
+      <div class="p-price"></div>
+      <button class="cart p-add">Add To Cart</button>
+    </div>
+    </template>
+
+    <!-- (B2) CART ITEMS -->
+    <template id="template-cart">
+    <div class="c-item">
+      <div class="c-name"></div>
+      <button class="c-del cart">X</button>
+      <input class="c-qty" type="number" min="0"/>
+    </div>
+    </template>
+    <template id="template-cart-checkout">
+      <button class="c-empty cart" onclick="cart.nuke()">Empty</button>
+      <button class="c-checkout cart" onclick="cart.checkout()">Checkout</button>
+    </template>
+  </body>
+</html>
