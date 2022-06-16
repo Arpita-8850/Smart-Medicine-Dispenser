@@ -2,7 +2,7 @@
 - Smart Medicine Dispenser is an automatic vending machine which will provide all urgent required medicines and supplies like ointments, sprays, sanitary napkins, general tablets and balms.
 - It can be installed at railway stations, subways, metro, malls, bus stops, hotels, schools, officies and airports.
 
-![alt text](https://github.com/Arpita-8850/Smart-Medicine-Dispenser/master/photo.png)
+![alt text](https://github.com/Arpita-8850/Smart-Medicine-Dispenser/blob/master/photo.png)
 
 ## Need:  
 - We have observed that most of the time we don’t have medicines when we need it the most. 
@@ -43,7 +43,7 @@ https://github.com/Arpita-8850/Smart-Medicine-Dispenser/blob/master/Smart_Medici
 
 ## Authors
 It was a third year degree project made by-
-Arpita Kar
-Abhishek Athani
-Shalom Pakhre
-Sadiya Shaikh
+- Arpita Kar
+- Abhishek Athani
+- Shalom Pakhre
+- Sadiya Shaikh
