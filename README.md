@@ -17,7 +17,7 @@
 - The customer has to tap the RFID card on the sensor and the system will deducted the amount from card and it will be updated on the database. 
 - Then system will drop the required medicine or supplies via dispensing mechanism and then the controller will update the inventory.
 
-![alt text](https://github.com/Arpita-8850/Smart-Medicine-Dispenser/master/photo1.png)
+![alt text](https://github.com/Arpita-8850/Smart-Medicine-Dispenser/blob/master/photo1.png)
 
 ## Software tools required:
 Flask framework
